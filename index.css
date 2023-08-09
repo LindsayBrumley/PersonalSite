@@ -1,0 +1,41 @@
+header {
+  font-family: "Berkshire Swash", cursive;
+  font-size: 70px;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar {
+  font-family: "Quicksand", sans-serif;
+  font-size: 25px;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  padding: 30px;
+}
+.aboutlink {
+  grid-area: 1 / 7 / 2 / 8;
+  display: flex;
+  justify-content: end;
+}
+
+.portfoliolink {
+  grid-area: 1 / 8 / 2 / 9;
+  display: flex;
+  justify-content: end;
+}
+
+.title {
+  font-family: "Quicksand", sans-serif;
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+}
+
+.headshot {
+  display: flex;
+  justify-content: center;
+  height: 650px;
+}
